@@ -1,15 +1,15 @@
-import { FontAwesome, Ionicons, MaterialIcons } from '@expo/vector-icons';
-import { createDrawerNavigator } from '@react-navigation/drawer';
-import { StackScreenProps } from '@react-navigation/stack';
-import { Pressable } from 'react-native';
+import { FontAwesome, Ionicons, MaterialIcons } from '@expo/vector-icons'
+import { createDrawerNavigator } from '@react-navigation/drawer'
+import { StackScreenProps } from '@react-navigation/stack'
+import { Pressable } from 'react-native'
 
-import { RootStackParamList } from '.';
-import TabNavigator from './tab-navigator';
-import Home from '../screens/home';
+import { RootStackParamList } from '.'
+import TabNavigator from './tab-navigator'
+import Home from '../screens/home'
 
-type Props = StackScreenProps<RootStackParamList, 'DrawerNavigator'>;
+type Props = StackScreenProps<RootStackParamList, 'DrawerNavigator'>
 
-const Drawer = createDrawerNavigator();
+const Drawer = createDrawerNavigator()
 
 export default function DrawerNavigator({ navigation }: Props) {
   return (
@@ -50,5 +50,5 @@ export default function DrawerNavigator({ navigation }: Props) {
         }}
       />
     </Drawer.Navigator>
-  );
+  )
 }

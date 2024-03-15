@@ -1,8 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { Platform } from 'react-native';
-import { YStack, Paragraph, Separator, Theme } from 'tamagui';
+import { StatusBar } from 'expo-status-bar'
+import { Platform } from 'react-native'
+import { YStack, Paragraph, Separator, Theme } from 'tamagui'
 
-import EditScreenInfo from '../components/edit-screen-info';
+import EditScreenInfo from '../components/edit-screen-info'
 
 export default function Modal() {
   return (
@@ -14,5 +14,5 @@ export default function Modal() {
         <EditScreenInfo path="src/screens/modal.tsx" />
       </YStack>
     </Theme>
-  );
+  )
 }

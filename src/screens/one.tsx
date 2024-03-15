@@ -1,6 +1,6 @@
-import { YStack, H2, Separator, Theme } from 'tamagui';
+import { YStack, H2, Separator, Theme } from 'tamagui'
 
-import EditScreenInfo from '../components/edit-screen-info';
+import EditScreenInfo from '../components/edit-screen-info'
 
 export default function TabOneScreen() {
   return (
@@ -11,5 +11,5 @@ export default function TabOneScreen() {
         <EditScreenInfo path="src/screens/one.tsx" />
       </YStack>
     </Theme>
-  );
+  )
 }
